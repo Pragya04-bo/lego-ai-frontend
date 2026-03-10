@@ -6,10 +6,10 @@ function App() {
   const [code, setCode] = useState("");
   const [overview, setOverview] = useState("");
   const [repos, setRepos] = useState([]);
-  const [repoResult, setRepoResult] = useState(null);
+  // const [repoResult, setRepoResult] = useState(null);
   const [codeResult, setCodeResult] = useState(null);
   const [opportunities, setOpportunities] = useState([]);
-  const [step, setStep] = useState(1);
+  // const [step, setStep] = useState(1);
 
   // STEP 1 - Repo Discovery
   const analyzeRepo = async () => {
