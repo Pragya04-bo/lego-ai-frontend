@@ -9,7 +9,7 @@ function App() {
   // const [repoResult, setRepoResult] = useState(null);
   const [codeResult, setCodeResult] = useState(null);
   const [opportunities, setOpportunities] = useState([]);
-  const [step, setStep] = useState(1);
+  const [ , setStep] = useState(1);
 
   // STEP 1 - Repo Discovery
   const analyzeRepo = async () => {
