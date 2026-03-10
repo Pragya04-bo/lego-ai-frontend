@@ -13,7 +13,7 @@ function App() {
 
   // STEP 1 - Repo Discovery
   const analyzeRepo = async () => {
-    const res = await fetch("http://127.0.0.1:8000/api/discover", {
+    const res = await fetch("https://lego-ai-backend.onrender.com/api/discover", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -31,7 +31,7 @@ function App() {
 
   // STEP 2 - Code Optimizer
   const optimizeCode = async () => {
-    const res = await fetch("http://127.0.0.1:8000/api/optimize-code", {
+    const res = await fetch("https://lego-ai-backend.onrender.com/api/optimize-code", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -49,7 +49,7 @@ function App() {
 
   // STEP 3 - Opportunity Finder
   const findOpportunities = async () => {
-    const res = await fetch("http://127.0.0.1:8000/api/find-opportunities", {
+    const res = await fetch("https://lego-ai-backend.onrender.com/api/find-opportunities", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
